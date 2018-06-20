@@ -3,22 +3,22 @@
 
 ## Подключение
 В браузере:
-
 ```html
 <script src="/yourpath/kremlinbot.js"></script>
 ```
+
 ## Как пользоваться?
 ### Создать класс Бот
 ```JavaScript
-var kremlinbot1 = new Bot('Zver');
+var kremlinbot1 = new Bot('Vatnik');
 ```
 #### Создание новости
 ```JavaScript
 kremlinbot1.news('good');
 ```
 Параметры:
-good – хорошую новость
-bad – плохую новость
+'good' – хорошую новость
+'bad' – плохую новость
 
 #### Создание комментария
 ```JavaScript
