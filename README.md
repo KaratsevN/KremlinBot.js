@@ -8,13 +8,14 @@
 ```
 
 ## Как пользоваться?
-### Создать класс Бот
+Создать класс Бот
 ```JavaScript
-var kremlinbot1 = new Bot('Vatnik');
+var kremlinbot = new Bot('Vatnik');
 ```
+
 #### Создание новости
 ```JavaScript
-kremlinbot1.news('good');
+kremlinbot.news('good');
 ```
 Параметры:
 'good' – хорошую новость
@@ -22,8 +23,10 @@ kremlinbot1.news('good');
 
 #### Создание комментария
 ```JavaScript
-kremlinbot1.comment();
+kremlinbot.comment();
 ```
 Параметры:
-good – хорошую новость
-bad – плохую новость
+good – хороший комментарий
+bad – плохой комментарий
+#
+Пример: test.js
